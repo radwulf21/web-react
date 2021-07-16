@@ -7,6 +7,8 @@ import App4 from './components/App4';
 import App5 from './components/App5';
 import Lista from './components/Lista';
 import Lista2 from './components/Lista2';
+import {Lista3, Item} from './components/Lista3';
+import Form from './components/Form';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -23,7 +25,23 @@ ReactDOM.render(
 
     {/* <Lista/> */}
 
-    <Lista2/>
+    {/* <Lista2/> */}
+
+    {/* <Lista3>
+      <Item key={999} id={999} completo={false}>
+        Abel
+      </Item>
+
+      <Item key={998} id={998} completo={true}>
+        Miguel
+      </Item>
+
+      Not Item
+    </Lista3> */}
+
+    <Form>
+      
+    </Form>
   </React.StrictMode>,
   document.getElementById('root')
 );
