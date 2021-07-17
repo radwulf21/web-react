@@ -9,6 +9,7 @@ import Lista from './components/Lista';
 import Lista2 from './components/Lista2';
 import {Lista3, Item} from './components/Lista3';
 import Form from './components/Form';
+import {Hello, Hello2} from './components/Hello';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -39,9 +40,15 @@ ReactDOM.render(
       Not Item
     </Lista3> */}
 
-    <Form>
-      
-    </Form>
+    {/* <Form/> */}
+
+    {/* <Hello text="Hello, world!">
+      <h1>Hello, developer!</h1>
+    </Hello> */}
+
+    {/* <Hello2 text="Hello, world!">
+      <h1>Hello, developer!</h1>
+    </Hello2> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
