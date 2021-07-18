@@ -10,6 +10,7 @@ import Lista2 from './components/Lista2';
 import {Lista3, Item} from './components/Lista3';
 import Form from './components/Form';
 import {Hello, Hello2} from './components/Hello';
+import App6 from './components/App6';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -49,6 +50,8 @@ ReactDOM.render(
     {/* <Hello2 text="Hello, world!">
       <h1>Hello, developer!</h1>
     </Hello2> */}
+
+    <App6/>
   </React.StrictMode>,
   document.getElementById('root')
 );
